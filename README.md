@@ -1,7 +1,6 @@
 # portscanner
 
-A small, from-scratch TCP port scanner written in Go. It's a toy,
-single-machine version of the idea behind large-scale internet scanning tools
+A small, from-scratch TCP port scanner written in Go. It's a single-machine version of the idea behind large-scale internet scanning tools
 like [ZMap](https://zmap.io/) (the research project out of the University of
 Michigan that Censys grew out of): given a set of targets and a set of ports,
 open as many TCP connections as possible in parallel to quickly find out
